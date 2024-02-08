@@ -1,0 +1,113 @@
+
+
+
+
+
+body {
+    
+    font-family: 'Protest Riot', sans-serif;
+}
+
+
+.father {
+    height: 844px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+
+
+.father .carre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 0;
+    
+}
+ .rond {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    height: 30%;
+    background-color: #bf2626;
+    border-radius: 50%;
+    margin: 5px;
+  }
+
+  img{
+    width: 40px;
+    position: absolute;
+    z-index: 1;
+
+    
+  }
+
+
+.tete {
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 50px;
+    color: #E827F1;;
+}
+
+.middle {
+    border-radius: 50%;
+    height:265px;
+    width: 265px;
+
+}
+
+.new {
+    height: 8%;
+    width: 75%;
+    margin-bottom: 75px;
+    
+}
+
+.new a{
+    color: #E827F1;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+
+/* Deuxieme page */
+
+
+/* h1{
+    font-size: 50px;
+    color: #E827F1;;
+}
+
+.trio{
+    width: 75%;
+    background-color: #E827F1;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.trio div{
+    /* margin-bottom: 20px; 
+}
